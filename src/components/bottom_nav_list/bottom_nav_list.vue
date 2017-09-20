@@ -1,21 +1,23 @@
 <template>
-  <div class="navigation-list"  style="background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);">
+  <div class="bottom-nav-list"  :style="{background:backgroundColor}">
     <i class="icon icon-find"></i>
     <span>
-      发现
+      {{title}}
     </span>
   </div>
 </template>
 <script>
-
+  export default{
+      msg:'bottom-nav-list',
+      props:['title','backgroundColor']
+  }
 </script>
 <style lang="stylus" ref="stylesheet/stylus">
-  .navigation-list
+  .bottom-nav-list
     width 25%
     height 60px
     color #fff
     float left
-    border-right 1px solid #fff
     box-sizing border-box
     .icon
       display block
@@ -24,5 +26,4 @@
       padding-bottom 5px
     span
       font-size 12px
-
 </style>

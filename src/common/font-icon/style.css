@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ie1kru');
-  src:  url('fonts/icomoon.eot?ie1kru#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ie1kru') format('truetype'),
-    url('fonts/icomoon.woff?ie1kru') format('woff'),
-    url('fonts/icomoon.svg?ie1kru#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?sctm59');
+  src:  url('fonts/icomoon.eot?sctm59#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?sctm59') format('truetype'),
+    url('fonts/icomoon.woff?sctm59') format('woff'),
+    url('fonts/icomoon.svg?sctm59#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,37 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-coffee:before {
+  content: "\e905";
+}
+.icon-lingdang:before {
+  content: "\e906";
+}
+.icon-music-list:before {
+  content: "\e907";
+}
+.icon-mv:before {
+  content: "\e908";
+}
+.icon-play-light:before {
+  content: "\e909";
+}
+.icon-ranking:before {
+  content: "\e90a";
+}
+.icon-sousuo:before {
+  content: "\e90c";
+}
+.icon-star:before {
+  content: "\e90d";
+  color: #bfbfbf;
+}
+.icon-stop:before {
+  content: "\e90e";
+}
+.icon-zhuti:before {
+  content: "\e90f";
+}
 .icon-Block:before {
   content: "\e900";
 }

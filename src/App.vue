@@ -11,7 +11,7 @@
 
 <script>
   import main_button from './components/main_button/main_button.vue'
-  import navigation from './components/navigation/navigation.vue'
+  import navigation from './components/bottom_nav/bottom_nav.vue'
   export default {
     name: 'app',
     components:{
