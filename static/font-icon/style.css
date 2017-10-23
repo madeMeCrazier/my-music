@@ -47,6 +47,7 @@
 }
 .icon-star:before {
   content: "\e90d";
+  color: #bfbfbf;
 }
 .icon-stop:before {
   content: "\e90e";

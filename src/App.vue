@@ -3,7 +3,7 @@
 <template>
   <div id="app">
     <audio id="myaudio" src=""></audio>
-
+    <v-home></v-home>
     <v-main-button></v-main-button>
     <v-navigation></v-navigation>
   </div>
@@ -12,11 +12,13 @@
 <script>
   import main_button from './components/main_button/main_button.vue'
   import navigation from './components/bottom_nav/bottom_nav.vue'
+  import home from './components/home/home.vue'
   export default {
     name: 'app',
     components:{
       'v-main-button':main_button,
-      'v-navigation':navigation
+      'v-navigation':navigation,
+      'v-home':home
     }
   }
 </script>
@@ -26,6 +28,7 @@
   @import "common/stylus/border-1px/index.styl"
   @import "common/stylus/global.styl"
   @import "common/stylus/util.styl"
+  @import "common/swiper.min.css"
   body,html
     margin:0
     padding:0
@@ -33,7 +36,7 @@
     background: #f0f0f0
     user-select:none
     -webkit-tap-highlight-color :transparent
-
+    background #eeeeee
   #app
     font-family: 'Avenir', Helvetica, Arial, sans-serif
     -webkit-font-smoothing: antialiased
