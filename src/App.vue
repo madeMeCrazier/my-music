@@ -32,6 +32,7 @@
   body,html
     margin:0
     padding:0
+    padding-bottom 1.2rem
     box-sizing:border-box
     background: #f0f0f0
     user-select:none
@@ -42,5 +43,4 @@
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
     color #2c3e50
-    text-align center
 </style>
