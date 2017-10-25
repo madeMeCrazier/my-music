@@ -46,7 +46,7 @@
       overflow hidden
       position static
       text-align center
-      line-height 0.4rem
+      line-height 0.35rem
       color #000000
       font-size 0.25rem
       font-weight 300

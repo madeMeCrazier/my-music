@@ -72,7 +72,9 @@
     </div>
     <div class="recommend-warpper">
       <h1 class="box-title">新歌推荐<span class="replace-onther">换一批</span></h1>
-
+      <v-songline url="static/image/promo_01.jpg" songName="爱在西元前" singer="周杰伦"></v-songline>
+      <v-songline url="static/image/skins_10.jpg" songName="可惜没如果" singer="林俊杰"></v-songline>
+      <v-songline url="static/image/b02.jpg" songName="十年" singer="陈奕迅"></v-songline>
       <div class="box-footer">
         查看更多 <span class="icon-play-light"></span>
       </div>
@@ -97,12 +99,14 @@
   import { swiper, swiperSlide } from 'vue-awesome-swiper'
   import card from './../card/card.vue'
   import headlineRotation from './../headline-rotation/headline-rotation.vue'
+  import songline from './../songline/songline.vue'
   export default{
     components:{
       'v-header':header,
       'v-nav-list':nav_list,
       'v-card':card,
       'v-headline':headlineRotation,
+      'v-songline':songline,
       swiper,
       swiperSlide
     },

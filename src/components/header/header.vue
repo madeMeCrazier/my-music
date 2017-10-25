@@ -27,7 +27,7 @@
     top 0rem
     left 0rem
     z-index 99
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)
     font-size 0.35rem
     color #ffffff
     border-bottom 0.01rem solid #ffffff
