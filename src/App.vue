@@ -3,7 +3,7 @@
 <template>
   <div id="app">
     <audio id="myaudio" src=""></audio>
-    <v-home></v-home>
+    <router-view></router-view>
     <v-main-button></v-main-button>
     <v-navigation></v-navigation>
   </div>
@@ -43,4 +43,5 @@
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
     color #2c3e50
+    font-size 0.3rem
 </style>

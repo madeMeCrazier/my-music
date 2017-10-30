@@ -2,12 +2,20 @@
   <div class="bottom-nav">
     <div class="bottom-nav-warpper">
       <div>
-        <v-nav-list title="发现" iconType="icon-find"></v-nav-list>
-        <v-nav-list title="我的音乐" iconType="icon-headset"></v-nav-list>
+        <router-link tag="i" to="/home">
+          <v-nav-list title="发现" iconType="icon-find"></v-nav-list>
+        </router-link>
+        <router-link tag="i" to="/music">
+          <v-nav-list title="我的音乐" iconType="icon-headset"></v-nav-list>
+        </router-link>
       </div>
       <div>
-        <v-nav-list title="动态" iconType="icon-sleepy"></v-nav-list>
-        <v-nav-list title="帐号" iconType="icon-Block"></v-nav-list>
+        <router-link tag="i" to="/dynamic">
+          <v-nav-list title="动态" iconType="icon-sleepy"></v-nav-list>
+        </router-link>
+        <router-link tag="i" to="/my">
+          <v-nav-list title="帐号" iconType="icon-Block"></v-nav-list>
+        </router-link>
       </div>
     </div>
   </div>

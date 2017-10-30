@@ -1,5 +1,5 @@
 <template>
-  <div id="header">
+  <div id="header" :style="background">
     <i class="icon-left" :class="iconLeftType" :href="iconLeftLink"></i>
     <p class="title">
       {{title}}
@@ -10,7 +10,7 @@
 
 <script>
   export default{
-    props:['title','link','iconLeftType','iconRightType','iconLeftLink','iconRightLink'],
+    props:['title','link','iconLeftType','iconRightType','iconLeftLink','iconRightLink','background'],
     data(){
       return{
 
@@ -27,7 +27,6 @@
     top 0rem
     left 0rem
     z-index 99
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)
     font-size 0.35rem
     color #ffffff
     border-bottom 0.01rem solid #ffffff

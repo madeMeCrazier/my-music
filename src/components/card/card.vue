@@ -34,6 +34,7 @@
       font-size 0.25rem
       color #ffffff
       background rgba(0,0,0,0.6)
+      text-align center
   .card2
     width 2.5rem
     height 3.5rem

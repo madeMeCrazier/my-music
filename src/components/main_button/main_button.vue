@@ -43,5 +43,4 @@
         font-size 0.4rem
         color #fff
         position relative
-        top -0.25rem
 </style>

@@ -1,11 +1,12 @@
 <template>
   <div class="home">
     <v-header
-      title="我的音乐"
+      title="发现"
       iconLeftLink="http://www.qq.com"
       iconLeftType="icon-sousuo"
       iconRightType="icon-lingdang"
       iconRightLink="http://www.qq.com"
+      background="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)"
     ></v-header>
     <swiper id="home-swiper" :options="swiperOption" ref="mySwiper">
       <!-- slides -->
