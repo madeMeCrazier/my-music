@@ -158,6 +158,7 @@
     line-height 1.2rem
     font-size 0.3rem
     padding-left 0.3rem
+    background #ffffff
     .replace-onther
       font-size 0.25rem
       float right
@@ -168,6 +169,7 @@
     text-align center
     line-height 0.8rem
     font-size 0.25rem
+    background #ffffff
     .icon-play-light
       font-size 0.32rem
       position relative

@@ -39,23 +39,20 @@
     <div class="songList-created">
       <div class="title">创建的歌单</div>
       <div class="songList-warpper">
-        <songList-card></songList-card>
-        <songList-card></songList-card>
-        <songList-card></songList-card>
-        <songList-card></songList-card>
-        <songList-card></songList-card>
-        <songList-card></songList-card>
+        <songList-card imageUrl="/static/image/promo_01.jpg" title="迷幻的电子音悦" songCount="30"></songList-card>
+        <songList-card imageUrl="/static/image/b02.jpg" title="别听这些歌，情绪会泛滥" songCount="30"></songList-card>
+        <songList-card imageUrl="/static/image/skins_10.jpg" title="一个人没有过去的人，怎么会有将来" songCount="30"></songList-card>
+        <songList-card imageUrl="/static/image/promo_10.jpg" title="你好世界" songCount="30"></songList-card>
+        <songList-card imageUrl="/static/image/promo_05.jpg" title="你好世界" songCount="30"></songList-card>
       </div>
     </div>
     <div class="songList-like">
       <div class="title">可能喜欢的歌单</div>
       <div class="songList-warpper">
-        <songList-card></songList-card>
-        <songList-card></songList-card>
-        <songList-card></songList-card>
-        <songList-card></songList-card>
-        <songList-card></songList-card>
-        <songList-card></songList-card>
+        <songList-card imageUrl="/static/image/b02.jpg" title="你好世界" songCount="30" type="songList-card2"></songList-card>
+      </div>
+      <div class="box-footer">
+        发现更多精彩<span class="icon-play-light"></span>
       </div>
     </div>
   </div>
@@ -156,13 +153,15 @@
           width 2.5rem
     .songList-created
       margin-top 0.2rem
+      background #f1f1f1
       .title
         height 0.8rem
         background #ffffff
         line-height 0.8rem
         padding-left 0.2rem
     .songList-like
-      margin-top 0.3rem
+      margin-top 0.1rem
+      background #f1f1f1
       .title
         height 0.8rem
         background #ffffff
